@@ -1,0 +1,64 @@
+/* Reset and common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #c50529;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Team Section */
+#team {
+    padding: 20px;
+}
+
+#team h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#team p {
+    text-align: center;
+}
+
+/* Wellmate Info Section */
+#wellmate-info {
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#wellmate-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#wellmate-info p {
+    margin-bottom: 20px;
+}
+
+#wellmate-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #c50529;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

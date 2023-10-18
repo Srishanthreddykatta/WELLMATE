@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know and Book Medicines</title>
+    <link rel="stylesheet" href="medstyle.css">
+</head>
+<body>
+    <header>
+        <!-- Your header content can be included here -->
+    </header>
+
+    <section id="diseases">
+        <h2>Common Diseases</h2>
+        <table>
+            <tr>
+                <td><a href="#fever">Fever</a></td>
+                <td><a href="#cold">Cold</a></td>
+                <td><a href="#cough">Cough</a></td>
+            </tr>
+            <tr>
+                <td><a href="#bodypains">Body Pains</a></td>
+                <td><a href="#vomitings">Vomitings</a></td>
+                <td><a href="#motions">Motions</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="medicines">
+        <div id="fever">
+            <h3>Fever</h3>
+            <p>Symptoms: High body temperature, chills, headache, muscle aches.</p>
+            <p>Common medicines for fever include: Paracetamol, Ibuprofen, etc.</p>
+        </div>
+
+        <div id="cold">
+            <h3>Cold</h3>
+            <p>Symptoms: Runny or stuffy nose, sneezing, sore throat, cough.</p>
+            <p>Common medicines for cold include: Antihistamines, Decongestants, etc.</p>
+        </div>
+
+        <div id="cough">
+            <h3>Cough</h3>
+            <p>Symptoms: Persistent cough, chest discomfort, shortness of breath.</p>
+            <p>Common medicines for cough include: Cough syrups, Antitussives, etc.</p>
+        </div>
+
+        <div id="bodypains">
+            <h3>Body Pains</h3>
+            <p>Symptoms: Aching muscles, joint pain, discomfort in the body.</p>
+            <p>Common medicines for body pains include: Painkillers, Muscle relaxants, etc.</p>
+        </div>
+
+        <div id="vomitings">
+            <h3>Vomitings</h3>
+            <p>Symptoms: Nausea, throwing up, stomach discomfort.</p>
+            <p>Common medicines for vomitings include: Antiemetics, Bismuth subsalicylate, etc.</p>
+        </div>
+
+        <div id="motions">
+            <h3>Motions</h3>
+            <p>Symptoms: Diarrhea, loose stools, stomach cramps.</p>
+            <p>Common medicines for motions include: Oral rehydration solution (ORS), Antidiarrheal agents, etc.</p>
+        </div>
+    </section>
+
+    <section id="book-medicine">
+        <h2>Book Medicines</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for "address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+            
+            <label for="disease">Disease:</label>
+            <select id="disease" name="disease" required>
+                <option value="Fever">Fever</option>
+                <option value="Cold">Cold</option>
+                <option value="Cough">Cough</option>
+                <option value="Body Pains">Body Pains</option>
+                <option value="Vomitings">Vomitings</option>
+                <option value="Motions">Motions</option>
+            </select>
+            
+            <button class="book-button" type="submit">Book Medicines</button>
+        </form>
+    </section>
+
+    <footer>
+        <!-- Your footer content can be included here -->
+    </footer>
+</body>
+</html>

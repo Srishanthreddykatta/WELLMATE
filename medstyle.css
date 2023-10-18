@@ -1,0 +1,125 @@
+/* Reset and common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #c50529;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Diseases Section */
+#diseases {
+    padding: 20px;
+}
+
+#diseases h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table tr td {
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+table a {
+    text-decoration: none;
+    color: #c50529;
+    font-weight: bold;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Medicines Section */
+#medicines {
+    padding: 20px;
+}
+
+#medicines h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#medicines p {
+    margin-bottom: 20px;
+}
+
+/* Book Medicines Section */
+#book-medicine {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#book-medicine h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.book-button {
+    background: linear-gradient(110deg, #c50529 40%, #833556 60%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.book-button:hover {
+    background: linear-gradient(110deg, #833556 40%, #c50529 60%);
+}
+
+/* Hover Animation for Disease Cells */
+table tr td:hover {
+    background-color: #c50529;
+    color: white;
+    cursor: pointer;
+}
+
+/* Smooth Scroll Animation */
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,71 @@
+/* Reset and common styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #c50529;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Appointment Section */
+#appointment {
+    padding: 20px;
+}
+
+#appointment h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#appointment p {
+    text-align: center;
+}
+
+#timeSlots {
+    margin-top: 20px;
+}
+
+#timeSlots h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.book-button {
+    background: linear-gradient(110deg, #c50529 40%, #833556 60%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.book-button:hover {
+    background: linear-gradient(110deg, #833556 40%, #c50529 60%);
+}
